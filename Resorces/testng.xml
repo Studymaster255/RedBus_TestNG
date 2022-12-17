@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BusesResult">
+	<listeners>
+		<listener class-name="UtilsLayer.ListnerClass"></listener>
+	</listeners>
+  <test thread-count="5" name="BusesResult">
+  <groups>
+  		<run>
+  			
+  		</run>
+  </groups>
+  
+    <classes>
+      <class name="TestLayer.SearchBusesTest"/>
+    <!--   <class name="TestLayer.ResultBusesTest"/>  -->
+    	<class name="TestLayer.SelectSeatTest"/>
+    	<class name="TestLayer.BordingAndDroppingTest"></class>
+    	</classes>
+  </test> <!-- BusesResult -->
+</suite> <!-- BusesResult -->
